@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1849F87B1D2C9C2E00B4DFE4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F87A1D2C9C2E00B4DFE4 /* main.c */; };
+		1849F8FC1D2CEBAF00B4DFE4 /* flash_map.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8EC1D2CEBAF00B4DFE4 /* flash_map.c */; };
+		1849F8FD1D2CEBAF00B4DFE4 /* os_arch_sim.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8ED1D2CEBAF00B4DFE4 /* os_arch_sim.c */; };
+		1849F8FE1D2CEBAF00B4DFE4 /* os_arch_stack_frame.s in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8EE1D2CEBAF00B4DFE4 /* os_arch_stack_frame.s */; };
+		1849F8FF1D2CEBAF00B4DFE4 /* os_bsp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8EF1D2CEBAF00B4DFE4 /* os_bsp.c */; };
+		1849F9001D2CEBAF00B4DFE4 /* os.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8F01D2CEBAF00B4DFE4 /* os.c */; };
+		1849F9011D2CEBAF00B4DFE4 /* os_callout.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8F11D2CEBAF00B4DFE4 /* os_callout.c */; };
+		1849F9021D2CEBAF00B4DFE4 /* os_eventq.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8F21D2CEBAF00B4DFE4 /* os_eventq.c */; };
+		1849F9031D2CEBAF00B4DFE4 /* os_heap.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8F31D2CEBAF00B4DFE4 /* os_heap.c */; };
+		1849F9041D2CEBAF00B4DFE4 /* os_mbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8F41D2CEBAF00B4DFE4 /* os_mbuf.c */; };
+		1849F9051D2CEBAF00B4DFE4 /* os_mempool.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8F51D2CEBAF00B4DFE4 /* os_mempool.c */; };
+		1849F9061D2CEBAF00B4DFE4 /* os_mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8F61D2CEBAF00B4DFE4 /* os_mutex.c */; };
+		1849F9071D2CEBAF00B4DFE4 /* os_sanity.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8F71D2CEBAF00B4DFE4 /* os_sanity.c */; };
+		1849F9081D2CEBAF00B4DFE4 /* os_sched.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8F81D2CEBAF00B4DFE4 /* os_sched.c */; };
+		1849F9091D2CEBAF00B4DFE4 /* os_sem.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8F91D2CEBAF00B4DFE4 /* os_sem.c */; };
+		1849F90A1D2CEBAF00B4DFE4 /* os_task.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8FA1D2CEBAF00B4DFE4 /* os_task.c */; };
+		1849F90B1D2CEBAF00B4DFE4 /* os_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 1849F8FB1D2CEBAF00B4DFE4 /* os_time.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1849F8751D2C9C2E00B4DFE4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1849F8771D2C9C2E00B4DFE4 /* MynewtOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MynewtOS; sourceTree = BUILT_PRODUCTS_DIR; };
+		1849F87A1D2C9C2E00B4DFE4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1849F8D11D2CEBAF00B4DFE4 /* flash_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flash_map.h; sourceTree = "<group>"; };
+		1849F8D21D2CEBAF00B4DFE4 /* hal_bsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hal_bsp.h; sourceTree = "<group>"; };
+		1849F8D31D2CEBAF00B4DFE4 /* hal_os_tick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hal_os_tick.h; sourceTree = "<group>"; };
+		1849F8D41D2CEBAF00B4DFE4 /* mcu_sim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mcu_sim.h; sourceTree = "<group>"; };
+		1849F8D51D2CEBAF00B4DFE4 /* native_bsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = native_bsp.h; sourceTree = "<group>"; };
+		1849F8D61D2CEBAF00B4DFE4 /* os_arch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_arch.h; sourceTree = "<group>"; };
+		1849F8D71D2CEBAF00B4DFE4 /* endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endian.h; sourceTree = "<group>"; };
+		1849F8D81D2CEBAF00B4DFE4 /* os.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os.h; sourceTree = "<group>"; };
+		1849F8D91D2CEBAF00B4DFE4 /* os_callout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_callout.h; sourceTree = "<group>"; };
+		1849F8DA1D2CEBAF00B4DFE4 /* os_cfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_cfg.h; sourceTree = "<group>"; };
+		1849F8DB1D2CEBAF00B4DFE4 /* os_eventq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_eventq.h; sourceTree = "<group>"; };
+		1849F8DC1D2CEBAF00B4DFE4 /* os_heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_heap.h; sourceTree = "<group>"; };
+		1849F8DD1D2CEBAF00B4DFE4 /* os_malloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_malloc.h; sourceTree = "<group>"; };
+		1849F8DE1D2CEBAF00B4DFE4 /* os_mbuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_mbuf.h; sourceTree = "<group>"; };
+		1849F8DF1D2CEBAF00B4DFE4 /* os_mempool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_mempool.h; sourceTree = "<group>"; };
+		1849F8E01D2CEBAF00B4DFE4 /* os_mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_mutex.h; sourceTree = "<group>"; };
+		1849F8E11D2CEBAF00B4DFE4 /* os_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_priv.h; sourceTree = "<group>"; };
+		1849F8E21D2CEBAF00B4DFE4 /* os_sanity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_sanity.h; sourceTree = "<group>"; };
+		1849F8E31D2CEBAF00B4DFE4 /* os_sched.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_sched.h; sourceTree = "<group>"; };
+		1849F8E41D2CEBAF00B4DFE4 /* os_sem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_sem.h; sourceTree = "<group>"; };
+		1849F8E51D2CEBAF00B4DFE4 /* os_task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_task.h; sourceTree = "<group>"; };
+		1849F8E61D2CEBAF00B4DFE4 /* os_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_test.h; sourceTree = "<group>"; };
+		1849F8E71D2CEBAF00B4DFE4 /* os_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_time.h; sourceTree = "<group>"; };
+		1849F8E81D2CEBAF00B4DFE4 /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		1849F8E91D2CEBAF00B4DFE4 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		1849F8EC1D2CEBAF00B4DFE4 /* flash_map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = flash_map.c; sourceTree = "<group>"; };
+		1849F8ED1D2CEBAF00B4DFE4 /* os_arch_sim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_arch_sim.c; sourceTree = "<group>"; };
+		1849F8EE1D2CEBAF00B4DFE4 /* os_arch_stack_frame.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = os_arch_stack_frame.s; sourceTree = "<group>"; };
+		1849F8EF1D2CEBAF00B4DFE4 /* os_bsp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_bsp.c; sourceTree = "<group>"; };
+		1849F8F01D2CEBAF00B4DFE4 /* os.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os.c; sourceTree = "<group>"; };
+		1849F8F11D2CEBAF00B4DFE4 /* os_callout.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_callout.c; sourceTree = "<group>"; };
+		1849F8F21D2CEBAF00B4DFE4 /* os_eventq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_eventq.c; sourceTree = "<group>"; };
+		1849F8F31D2CEBAF00B4DFE4 /* os_heap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_heap.c; sourceTree = "<group>"; };
+		1849F8F41D2CEBAF00B4DFE4 /* os_mbuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_mbuf.c; sourceTree = "<group>"; };
+		1849F8F51D2CEBAF00B4DFE4 /* os_mempool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_mempool.c; sourceTree = "<group>"; };
+		1849F8F61D2CEBAF00B4DFE4 /* os_mutex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_mutex.c; sourceTree = "<group>"; };
+		1849F8F71D2CEBAF00B4DFE4 /* os_sanity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_sanity.c; sourceTree = "<group>"; };
+		1849F8F81D2CEBAF00B4DFE4 /* os_sched.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_sched.c; sourceTree = "<group>"; };
+		1849F8F91D2CEBAF00B4DFE4 /* os_sem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_sem.c; sourceTree = "<group>"; };
+		1849F8FA1D2CEBAF00B4DFE4 /* os_task.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_task.c; sourceTree = "<group>"; };
+		1849F8FB1D2CEBAF00B4DFE4 /* os_time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = os_time.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1849F8741D2C9C2E00B4DFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1849F86E1D2C9C2E00B4DFE4 = {
+			isa = PBXGroup;
+			children = (
+				1849F8791D2C9C2E00B4DFE4 /* MynewtOS */,
+				1849F8781D2C9C2E00B4DFE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1849F8781D2C9C2E00B4DFE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1849F8771D2C9C2E00B4DFE4 /* MynewtOS */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1849F8791D2C9C2E00B4DFE4 /* MynewtOS */ = {
+			isa = PBXGroup;
+			children = (
+				1849F8CE1D2CEBAF00B4DFE4 /* os */,
+				1849F87A1D2C9C2E00B4DFE4 /* main.c */,
+			);
+			path = MynewtOS;
+			sourceTree = "<group>";
+		};
+		1849F8CE1D2CEBAF00B4DFE4 /* os */ = {
+			isa = PBXGroup;
+			children = (
+				1849F8CF1D2CEBAF00B4DFE4 /* inc */,
+				1849F8EA1D2CEBAF00B4DFE4 /* src */,
+			);
+			path = os;
+			sourceTree = "<group>";
+		};
+		1849F8CF1D2CEBAF00B4DFE4 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				1849F8D01D2CEBAF00B4DFE4 /* arch */,
+				1849F8D71D2CEBAF00B4DFE4 /* endian.h */,
+				1849F8D81D2CEBAF00B4DFE4 /* os.h */,
+				1849F8D91D2CEBAF00B4DFE4 /* os_callout.h */,
+				1849F8DA1D2CEBAF00B4DFE4 /* os_cfg.h */,
+				1849F8DB1D2CEBAF00B4DFE4 /* os_eventq.h */,
+				1849F8DC1D2CEBAF00B4DFE4 /* os_heap.h */,
+				1849F8DD1D2CEBAF00B4DFE4 /* os_malloc.h */,
+				1849F8DE1D2CEBAF00B4DFE4 /* os_mbuf.h */,
+				1849F8DF1D2CEBAF00B4DFE4 /* os_mempool.h */,
+				1849F8E01D2CEBAF00B4DFE4 /* os_mutex.h */,
+				1849F8E11D2CEBAF00B4DFE4 /* os_priv.h */,
+				1849F8E21D2CEBAF00B4DFE4 /* os_sanity.h */,
+				1849F8E31D2CEBAF00B4DFE4 /* os_sched.h */,
+				1849F8E41D2CEBAF00B4DFE4 /* os_sem.h */,
+				1849F8E51D2CEBAF00B4DFE4 /* os_task.h */,
+				1849F8E61D2CEBAF00B4DFE4 /* os_test.h */,
+				1849F8E71D2CEBAF00B4DFE4 /* os_time.h */,
+				1849F8E81D2CEBAF00B4DFE4 /* queue.h */,
+				1849F8E91D2CEBAF00B4DFE4 /* util.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		1849F8D01D2CEBAF00B4DFE4 /* arch */ = {
+			isa = PBXGroup;
+			children = (
+				1849F8D11D2CEBAF00B4DFE4 /* flash_map.h */,
+				1849F8D21D2CEBAF00B4DFE4 /* hal_bsp.h */,
+				1849F8D31D2CEBAF00B4DFE4 /* hal_os_tick.h */,
+				1849F8D41D2CEBAF00B4DFE4 /* mcu_sim.h */,
+				1849F8D51D2CEBAF00B4DFE4 /* native_bsp.h */,
+				1849F8D61D2CEBAF00B4DFE4 /* os_arch.h */,
+			);
+			path = arch;
+			sourceTree = "<group>";
+		};
+		1849F8EA1D2CEBAF00B4DFE4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1849F8EB1D2CEBAF00B4DFE4 /* arch */,
+				1849F8F01D2CEBAF00B4DFE4 /* os.c */,
+				1849F8F11D2CEBAF00B4DFE4 /* os_callout.c */,
+				1849F8F21D2CEBAF00B4DFE4 /* os_eventq.c */,
+				1849F8F31D2CEBAF00B4DFE4 /* os_heap.c */,
+				1849F8F41D2CEBAF00B4DFE4 /* os_mbuf.c */,
+				1849F8F51D2CEBAF00B4DFE4 /* os_mempool.c */,
+				1849F8F61D2CEBAF00B4DFE4 /* os_mutex.c */,
+				1849F8F71D2CEBAF00B4DFE4 /* os_sanity.c */,
+				1849F8F81D2CEBAF00B4DFE4 /* os_sched.c */,
+				1849F8F91D2CEBAF00B4DFE4 /* os_sem.c */,
+				1849F8FA1D2CEBAF00B4DFE4 /* os_task.c */,
+				1849F8FB1D2CEBAF00B4DFE4 /* os_time.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		1849F8EB1D2CEBAF00B4DFE4 /* arch */ = {
+			isa = PBXGroup;
+			children = (
+				1849F8EC1D2CEBAF00B4DFE4 /* flash_map.c */,
+				1849F8ED1D2CEBAF00B4DFE4 /* os_arch_sim.c */,
+				1849F8EE1D2CEBAF00B4DFE4 /* os_arch_stack_frame.s */,
+				1849F8EF1D2CEBAF00B4DFE4 /* os_bsp.c */,
+			);
+			path = arch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1849F8761D2C9C2E00B4DFE4 /* MynewtOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1849F87E1D2C9C2E00B4DFE4 /* Build configuration list for PBXNativeTarget "MynewtOS" */;
+			buildPhases = (
+				1849F8731D2C9C2E00B4DFE4 /* Sources */,
+				1849F8741D2C9C2E00B4DFE4 /* Frameworks */,
+				1849F8751D2C9C2E00B4DFE4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MynewtOS;
+			productName = MynewtOS;
+			productReference = 1849F8771D2C9C2E00B4DFE4 /* MynewtOS */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1849F86F1D2C9C2E00B4DFE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1849F8761D2C9C2E00B4DFE4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1849F8721D2C9C2E00B4DFE4 /* Build configuration list for PBXProject "MynewtOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1849F86E1D2C9C2E00B4DFE4;
+			productRefGroup = 1849F8781D2C9C2E00B4DFE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1849F8761D2C9C2E00B4DFE4 /* MynewtOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1849F8731D2C9C2E00B4DFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1849F9021D2CEBAF00B4DFE4 /* os_eventq.c in Sources */,
+				1849F9081D2CEBAF00B4DFE4 /* os_sched.c in Sources */,
+				1849F8FE1D2CEBAF00B4DFE4 /* os_arch_stack_frame.s in Sources */,
+				1849F9091D2CEBAF00B4DFE4 /* os_sem.c in Sources */,
+				1849F8FF1D2CEBAF00B4DFE4 /* os_bsp.c in Sources */,
+				1849F87B1D2C9C2E00B4DFE4 /* main.c in Sources */,
+				1849F9001D2CEBAF00B4DFE4 /* os.c in Sources */,
+				1849F8FC1D2CEBAF00B4DFE4 /* flash_map.c in Sources */,
+				1849F9071D2CEBAF00B4DFE4 /* os_sanity.c in Sources */,
+				1849F9051D2CEBAF00B4DFE4 /* os_mempool.c in Sources */,
+				1849F8FD1D2CEBAF00B4DFE4 /* os_arch_sim.c in Sources */,
+				1849F90B1D2CEBAF00B4DFE4 /* os_time.c in Sources */,
+				1849F9031D2CEBAF00B4DFE4 /* os_heap.c in Sources */,
+				1849F9011D2CEBAF00B4DFE4 /* os_callout.c in Sources */,
+				1849F9041D2CEBAF00B4DFE4 /* os_mbuf.c in Sources */,
+				1849F90A1D2CEBAF00B4DFE4 /* os_task.c in Sources */,
+				1849F9061D2CEBAF00B4DFE4 /* os_mutex.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1849F87C1D2C9C2E00B4DFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1849F87D1D2C9C2E00B4DFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1849F87F1D2C9C2E00B4DFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					MN_OSX,
+				);
+				HEADER_SEARCH_PATHS = /Users/apple/Documents/source/ObjectiveC/MynewtOS/MynewtOS/os/inc/;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1849F8801D2C9C2E00B4DFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_PREPROCESSOR_DEFINITIONS = MN_OSX;
+				HEADER_SEARCH_PATHS = /Users/apple/Documents/source/ObjectiveC/MynewtOS/MynewtOS/os/inc/;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1849F8721D2C9C2E00B4DFE4 /* Build configuration list for PBXProject "MynewtOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1849F87C1D2C9C2E00B4DFE4 /* Debug */,
+				1849F87D1D2C9C2E00B4DFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1849F87E1D2C9C2E00B4DFE4 /* Build configuration list for PBXNativeTarget "MynewtOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1849F87F1D2C9C2E00B4DFE4 /* Debug */,
+				1849F8801D2C9C2E00B4DFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1849F86F1D2C9C2E00B4DFE4 /* Project object */;
+}
