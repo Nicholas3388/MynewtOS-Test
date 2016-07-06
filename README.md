@@ -11,3 +11,7 @@ had called `os_sem_init()` for task2_sem inside `task2_handler()`, task 1 would 
 called `os_sem_pend()` using task2_sem before task2_sem was initialized.
 
 ## Build in Xcode
+
+Run this test program you'll see output from terminal. The terminal display `In task1` and 
+`In task2` repeatly. It means that the task1 and task2 receive their semaphores, and then
+continue running again.
