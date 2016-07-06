@@ -1,7 +1,6 @@
 # This is just a test for MynewtOS on Mac OS X
 
 ## From Apache Mynewt
-----------------------------
 
 In the example, each task works in a ping-pong like fashion: task 1 wakes up,
 adds a token to semaphore 1 and then waits for a token from semaphore 2.
@@ -12,4 +11,3 @@ had called `os_sem_init()` for task2_sem inside `task2_handler()`, task 1 would 
 called `os_sem_pend()` using task2_sem before task2_sem was initialized.
 
 ## Build in Xcode
-----------------------------
